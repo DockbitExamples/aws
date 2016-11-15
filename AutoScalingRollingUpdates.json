@@ -222,8 +222,9 @@
             "files" : {
               "/var/www/html/index.html" : {
                 "content" : { "Fn::Join" : ["\n", [
-                  "<h1>Congratulations from Dockbit!, you have successfully deployed the AWS CloudFormation Stack.</h1>",
-                  "The Git SHA of the verison deployed is: ", {"Ref": "SHAVersion"}
+                  "<h1>Congratulations from Dockbit!</h1>",
+                  "<img src='http://i.giphy.com/l46CdUTy21h8wwrAs.gif' alt='Dancing' height='162' width='300'>",
+                  "<h1>Git SHA of the verison deployed is: ", {"Ref": "SHAVersion"}, "</h1>"
                 ]]},
                 "mode"    : "000644",
                 "owner"   : "root",
